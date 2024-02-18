@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form">
+    <form action="data.php">
+        <p class="det">Personal Details.</p>
+        <label for="salutation">Salutation</label>
+        <select name="salutation" id="salutation">
+            <option value="sir">Sir</option>
+            <option value="madam">Madam</option>
+        </select><br><br>
+        <label for="fname">First Name.</label><br>
+        <input type="text" name="fname" id="fname" size="40"><br><br>
+        <label for="lname">Last Name</label><br><br>
+        <input type="text" name="lname" id="lname" size="40"><br><br>
+        <label for="date">Date of Birth</label>
+        <input type="date" name="dob" id="date"><br><br>
+        <label for="address">Address</label><br>
+        <textarea name="address" id="address" cols="30" rows="10" class="address"></textarea><br><br>
+        <input type="submit" value="Submit"  class="submit">
+    </form>
+</div>
+</body>
+</html>
